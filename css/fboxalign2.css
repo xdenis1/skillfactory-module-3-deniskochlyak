@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0;
+}
+body {
+    font-size: 1rem;
+    /* Sticky footer */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.content {
+    padding: 1.5rem;
+    /* Sticky footer */
+    flex: 1;
+}
+/* Basic footer styles */
+footer {
+    width: 100%;
+    background: #111;
+    margin-top: 1.5rem;
+    /* Sticky footer */
+    flex-shrink: 0;
+}
+h1,
+p {
+    margin: 1rem 0;
+}
+ul {
+    padding: 1.25rem;
+    text-align: center;
+}
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0.25rem 0.75rem;
+}
+ul a {
+    color: #fff;
+    text-decoration: none;
+}
+ul a:hover {
+    text-decoration: underline;
+}
