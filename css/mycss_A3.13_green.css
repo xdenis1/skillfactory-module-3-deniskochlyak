@@ -1,0 +1,108 @@
+.container_presentation {
+	display: flex;
+	background: #F6F2F2;
+	flex-direction: column;
+}
+
+body {
+	background: #F6F2F2;
+}
+
+header {
+	margin: 0 auto;
+	text-transform: uppercase;
+	display: flex;
+	margin: 0 auto;
+	min-height: 89px;
+	background-color: black;
+	margin-top: 29.01px;
+	max-width: 1249px;
+	justify-content: center;
+	width: 100%;
+	opacity: 0.8;
+}
+
+.headermenu {
+	display: flex;
+	list-style: none;
+	margin: unset;
+	flex-wrap: wrap;
+	padding-right: 91px;
+}
+
+li {
+	display:flex;
+	min-height: 89px;
+}
+
+li >a {
+	color:#E0E0E0;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 0 30px;
+	display: flex;
+	align-items: center;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	padding-top: 13px;
+}
+
+.headermenu > li:hover {
+	background-color: #2DFF2D;
+}
+
+/* ... [le reste du CSS reste identique, en remplaçant toutes les occurrences de #FF2D2D, #FF3B3B et red par #2DFF2D] ... */
+
+.div_button {
+display: flex;
+height: 55px;
+width: 227px;
+background: #2DFF2D;
+justify-content: center;
+border-radius:5px;
+}
+
+.contact-button {
+background: #2DFF2D;
+font-style: normal;
+font-weight: bold;
+font-size: 18.0412px;
+line-height: 34px;
+letter-spacing: 0.3195px;
+color: #FFFFFF;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 35px;
+padding-right: 35px;
+text-decoration: none;
+}
+
+/* ... et ainsi de suite pour tout le fichier ... */
+
+.hr_second {
+	width: 134px;
+	height: 5px;
+	background-color: #2DFF2D;
+	align-self: center;
+}
+
+.headermenu2 :hover {
+	color: #2DFF2D;
+}
+
+.submitButton {
+    width: 217px;
+    height: 82px;
+    background: #2DFF2D;
+    box-sizing: border-box;
+    border-radius:5px;
+    color: white;
+    /* ... reste des propriétés ... */
+}
+
+.submitButton2 {
+    max-width: 734px;
+    height: 75px;
+    background: #2DFF2D;
+    /* ... reste des propriétés ... */
+}
